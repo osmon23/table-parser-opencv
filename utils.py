@@ -77,7 +77,7 @@ def run_tesseract(filename, img_id, psm, oem):
     mkdir("bin/extracted/")
 
     image = Image.open(filename)
-    language = 'eng'
+    language = 'rus'
     configuration = "--psm " + str(psm) + " --oem " + str(oem)
 
     # Run tesseract
